@@ -1,0 +1,6 @@
+web:    java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
+
+<%! String driverName = "org.postgresql.Driver";%>
+<%!String url = "jdbc:postgresql://ec2-52-200-188-218.compute-1.amazonaws.com:5432/d3jemlqbkk5rp7";%>
+<%!String user = "zomhirdpppefzg";%>
+<%!String psw = "18114bebdc0817c3a0023e9336205a1662e9d7214f26dcf5f28d6f5aef128802";%>
